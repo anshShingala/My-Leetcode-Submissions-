@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0135-candy](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/0135-candy) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Binary Search
 |  |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/0547-number-of-provinces) |
+## Greedy
+|  |
+| ------- |
+| [0135-candy](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/0135-candy) |
 <!---LeetCode Topics End-->
