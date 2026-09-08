@@ -4,17 +4,19 @@ class Solution {
             return s;
         }
 
-        StringBuilder[] rows = new StringBuilder[numRows];
+        String[] rows = new String[numRows];
 
         for (int i = 0; i < numRows; i++) {
-            rows[i] = new StringBuilder();
+            rows[i] = "";
         }
 
         int row = 0;
         int direction = 1;
 
-        for (char ch : s.toCharArray()) {
-            rows[row].append(ch);
+        for (int i = 0; i < s.length(); i++) {
+            // String concatenation inside the loop creates many
+            // intermediate String objects.
+            rows[row] = rows[row] + s.charAt(i);
 
             if (row == 0) {
                 direction = 1;
@@ -25,12 +27,12 @@ class Solution {
             row += direction;
         }
 
-        StringBuilder result = new StringBuilder();
+        String result = "";
 
-        for (StringBuilder currentRow : rows) {
-            result.append(currentRow);
+        for (int i = 0; i < numRows; i++) {
+            result = result + rows[i];
         }
 
-        return result.toString();
+        return result;
     }
 }
