@@ -40,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0135-candy](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/0135-candy) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/anshShingala/My-Leetcode-Submissions-/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
